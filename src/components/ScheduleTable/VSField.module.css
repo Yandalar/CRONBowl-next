@@ -1,0 +1,4 @@
+.container {
+  background-color: color-mix(in srgb, #121f30 80%, transparent);
+  border: 1.5px solid #263142;
+}
