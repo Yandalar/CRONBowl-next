@@ -13,7 +13,7 @@ type Props = {
 export const Running = ({ schedule, runningRound, standings }: Props) => {
   return (
     <Grid className={classes.container} mx="lg" p="md" gutter="xl">
-      <Grid.Col span={{ xl: 6, lg: 12, md: 12 }} mt={{ xl: "2.5rem", md: 0 }}>
+      <Grid.Col span={{ xl: 6, lg: 12, md: 12 }}>
         <StandingsTable standings={standings} />
       </Grid.Col>
       <Grid.Col
