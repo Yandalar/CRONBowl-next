@@ -25,7 +25,7 @@ export const ScheduleTable = ({ schedule, runningRound }: Props) => {
         );
       })}
       <Flex justify="center">
-        <Pagination value={activePage} onChange={setPage} total={9} />
+        <Pagination value={activePage} onChange={setPage} total={9} mt="md" />
       </Flex>
     </>
   );
